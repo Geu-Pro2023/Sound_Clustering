@@ -102,10 +102,10 @@ silhouette_avg = silhouette_score(features, clusters)
 ## Results & Analysis
 
 ### Dataset Statistics
-- **Total Audio Files**: 3,010 .wav files
-- **Processed Samples**: 500 files (for computational efficiency)
+- **Total Audio Files**: 3,000 .wav files
+- **Processed Samples**: 3,000 files (for computational efficiency)
 - **Feature Dimensions**: 13 Mel Spectrogram coefficients
-- **Data Shape**: (500, 13)
+- **Data Shape**: (3,000, 13) (samples, mel_features)
 
 ### Clustering Performance
 The project evaluates clustering quality using:
@@ -132,6 +132,16 @@ The project evaluates clustering quality using:
 - Quantitative metrics for cluster quality
 - 2D visualizations of high-dimensional data
 - Correlation analysis of audio features
+
+### **Quantitative Performance Comparison**
+
+| Metric          | K-Means        | DBSCAN         | Interpretation                          |
+|-----------------|----------------|----------------|-----------------------------------------|
+| Silhouette Score| 0.6442 (Good)  | 0.3171 (Average)| K-Means achieves 2× better cluster cohesion/separation |
+| Davies-Bouldin  | 0.4831         | 0.5861         | K-Means clusters are more distinct (lower = better) |
+| Inertia         | 5004.83        | 1470.43        | DBSCAN's smaller clusters artificially reduce inertia |
+| Cluster Count   | 2              | 11             | DBSCAN over-fragments the audio data    |
+| Noise Points    | 0              | 18             | DBSCAN excludes 0.6% of samples as noise |
 
 ## Key Insights
 - High-dimensional audio features require dimensionality reduction for effective visualization
