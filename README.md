@@ -3,11 +3,6 @@
 ## Overview
 This project implements unsupervised machine learning techniques to cluster unlabeled sound data using audio feature extraction and various clustering algorithms. The project analyzes 3,010 audio files (.wav format) to identify patterns and group similar sounds together.
 
-## Author
-**Geu Aguto**
-- GitHub: [Geu-Pro2023](https://github.com/Geu-Pro2023)
-- Project Repository: [Sound_Clustering](https://github.com/Geu-Pro2023/Sound_Clustering)
-
 ## Project Structure
 ```
 Sound Clustering/
@@ -162,6 +157,11 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Scikit-learn**: Machine learning algorithms
 - **Google Colab**: Development environment
 - **Audio Dataset**: Unlabeled sound collection for clustering analysis
+
+## Author
+**Geu Aguto**
+- GitHub: [Geu-Pro2023](https://github.com/Geu-Pro2023)
+- Project Repository: [Sound_Clustering](https://github.com/Geu-Pro2023/Sound_Clustering)
 
 ## Contact
 For questions or collaboration opportunities, please reach out through GitHub or open an issue in the repository.
