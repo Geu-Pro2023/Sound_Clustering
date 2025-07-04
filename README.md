@@ -1,15 +1,18 @@
 # Sound Clustering Project
 
 ## Overview
-This project implements unsupervised machine learning techniques to cluster unlabeled sound data using audio feature extraction and various clustering algorithms. The project analyzes 3,000 audio files (.wav format) to identify patterns and group similar sounds together.
+This project implements unsupervised machine-learning techniques to cluster unlabeled sound data using audio feature extraction and various clustering algorithms. The project analyzes 3,000 audio files (.wav format) to identify patterns and group similar sounds together.
+
+## Dataset  
+[Click the link](https://drive.google.com/drive/folders/106gqdpPmPy1gfbVYViO7BHNlkmxNYY4C) to access the dataset.
 
 ## Project Structure
 ```
 Sound Clustering/
 ├── Geu_Aguto_Sound_clustering_assignment.ipynb
 ├── Geu Aguto Garang_Hidden_Markov_Model_Capstone.pdf
-├── README.md
-└── unlabelled_sounds/ (3,010 .wav files)
+├── requirements.txt
+└── README.md
 ```
 
 ## Features
